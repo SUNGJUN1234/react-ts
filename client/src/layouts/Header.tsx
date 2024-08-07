@@ -10,6 +10,7 @@ const Header = () => {
           <Link to={"/effect"}>Effect</Link>
           <Link to={"/ref"}>Ref</Link>
           <Link to={"/hook"}>Hook</Link>
+          <Link to={"/context"}>Context</Link>
         </header>
     );
 };
