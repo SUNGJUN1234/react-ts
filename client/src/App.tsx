@@ -8,6 +8,7 @@ import StateApp from "./pages/StateApp.tsx";
 import EffectApp from "./pages/EffectApp.tsx";
 import RefApp from "./pages/RefApp.tsx";
 import ContextApp from "./pages/ContextApp.tsx";
+import ReducerApp from "./pages/ReducerApp.tsx";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/ref" element={<RefApp />} />
                     <Route path="/hook" element={<HookApp />} />
                     <Route path="/context" element={<ContextApp />} />
+                    <Route path="/reducer" element={<ReducerApp />} />
                 </Routes>
                 {/*<Footer />*/}
             </div>
