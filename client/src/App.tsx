@@ -6,6 +6,7 @@ import Header from "./layout/Header.tsx";
 import IndexApp from "./pages/IndexApp.tsx";
 import StateApp from "./pages/StateApp.tsx";
 import EffectApp from "./pages/EffectApp.tsx";
+import RefApp from "./pages/RefApp.tsx";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/phone" element={<PhoneApp />} />
                     <Route path="/state" element={<StateApp />} />
                     <Route path="/effect" element={<EffectApp />} />
+                    <Route path="/ref" element={<RefApp />} />
                     <Route path="/hook" element={<HookApp />} />
                 </Routes>
                 {/*<Footer />*/}

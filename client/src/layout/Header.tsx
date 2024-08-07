@@ -8,6 +8,7 @@ const Header = () => {
           {/*<Link to={"/phone"}>Phone</Link>*/}
           <Link to={"/state"}>State</Link>
           <Link to={"/effect"}>Effect</Link>
+          <Link to={"/ref"}>Ref</Link>
           <Link to={"/hook"}>Hook</Link>
         </header>
     );
