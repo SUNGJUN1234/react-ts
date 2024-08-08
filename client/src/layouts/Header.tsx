@@ -13,6 +13,7 @@ const Header = () => {
           <Link to={"/context"}>Context</Link>
           <Link to={"/reducer"}>Reducer</Link>
           <Link to={"/memo"}>Memo</Link>
+          <Link to={"/debounce"}>Debounce</Link>
         </header>
     );
 };
