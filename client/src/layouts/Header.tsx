@@ -14,6 +14,7 @@ const Header = () => {
           <Link to={"/reducer"}>Reducer</Link>
           <Link to={"/memo"}>Memo</Link>
           <Link to={"/debounce"}>Debounce</Link>
+          <Link to={"/throttle"}>Throttle</Link>
         </header>
     );
 };
