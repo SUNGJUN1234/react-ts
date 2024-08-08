@@ -12,6 +12,7 @@ const Header = () => {
           <Link to={"/hook"}>Hook</Link>
           <Link to={"/context"}>Context</Link>
           <Link to={"/reducer"}>Reducer</Link>
+          <Link to={"/memo"}>Memo</Link>
         </header>
     );
 };
